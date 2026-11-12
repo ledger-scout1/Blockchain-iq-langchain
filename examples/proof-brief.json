@@ -1,0 +1,70 @@
+{
+  "resource": "GET /api/x402/v1/brief",
+  "priceUsd": 0.01,
+  "network": "eip155:8453",
+  "payTo": "0x617dA9383fbA67e86137BC4924b8b7E400fB7C9e",
+  "payer": "0x0e69147C00b2BCC7092d4c0b9668f302B9EE36Cb",
+  "transactionHash": "0x0439a66d2933794087c3072ae7e6e1f5e950dba8a586456f15a50730617b2684",
+  "basescan": "https://basescan.org/tx/0x0439a66d2933794087c3072ae7e6e1f5e950dba8a586456f15a50730617b2684",
+  "fetchedAt": "2026-11-11T21:57:55.351Z",
+  "dataExcerpt": {
+    "prices": {
+      "asOf": "2026-11-11T21:57:54.951Z",
+      "coins": [
+        {
+          "coinId": "bitcoin",
+          "symbol": "BTC",
+          "price": 74359,
+          "change24h": 0.75512,
+          "change7d": -6.7074,
+          "change30d": -9.882,
+          "marketCapRank": 1
+        },
+        {
+          "coinId": "ethereum",
+          "symbol": "ETH",
+          "price": 2071.33,
+          "change24h": 0.74307,
+          "change7d": -13.5226,
+          "change30d": -17.4176,
+          "marketCapRank": 2
+        },
+        {
+          "coinId": "solana",
+          "symbol": "SOL",
+          "price": 84.56,
+          "change24h": 1.38934,
+          "change7d": -10.0878,
+          "change30d": -21.4889,
+          "marketCapRank": 7
+        },
+        {
+          "coinId": "ripple",
+          "symbol": "XRP",
+          "price": 1.061,
+          "change24h": 0.07264,
+          "change7d": -18.0141,
+          "change30d": -21.931,
+          "marketCapRank": 6
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-11-12",
+          "time": null,
+          "title": "EBA takes over specified USDC supervision (significant e-money token)",
+          "category": "Regulatory",
+          "importance": 2
+        },
+        {
+          "date": "2026-11-13",
+          "time": "08:30",
+          "title": "US PPI",
+          "category": "Macro",
+          "importance": 2
+        }
+      ],
+      "flags": []
+    }
+  }
+}
